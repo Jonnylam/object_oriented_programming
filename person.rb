@@ -30,3 +30,10 @@ chris = Instructor.new("Chris")
 chris.instructor_intro
 christina = Student.new("Christina")
 christina.student_intro
+
+chris.teach
+christina.learn
+
+#This wont work becasuse Christina is in Student class, but the teach method is from Instructor.  With Chris, it is vice versa!!!
+christina.teach 
+chris.learn
