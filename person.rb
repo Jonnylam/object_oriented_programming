@@ -24,3 +24,9 @@ end
 			puts "Hi, my name is #{@name} and I am an instructor"
 		end
 	end
+
+
+chris = Instructor.new("Chris")
+chris.instructor_intro
+christina = Student.new("Christina")
+christina.student_intro
